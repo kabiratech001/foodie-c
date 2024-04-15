@@ -1,0 +1,20 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 4%;
+}
+.navbar .logo{
+    width: max(10%,80px);
+    color: tomato;
+    font-family: cursive;
+}
+.navbar .logo h3{
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+}
+.navbar .profile{
+    width: 40px;
+    border-radius: 100%;
+}
