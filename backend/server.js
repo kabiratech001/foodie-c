@@ -16,7 +16,7 @@ const port = 4000
 app.use(express.json())
 app.use(
   cors({
-    origin: "https://foodie-crus.onrender.com/",
+    origin: true,
   })
 );
 
