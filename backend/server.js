@@ -14,7 +14,11 @@ const port = 4000
 
 // middlewares
 app.use(express.json())
-app.use(cors())
+app.use(
+  cors({
+    origin: "https://foodie-crus.onrender.com/",
+  })
+);
 
 // db connection
 connectDB()
